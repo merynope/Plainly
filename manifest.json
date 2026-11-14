@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "Plainly - Explain this page",
+  "version": "1.0.0",
+  "description": "Get a clearer explanation of technical and legal webpages.",
+  "minimum_chrome_version": "116",
+  "permissions": [
+    "activeTab",
+    "contextMenus",
+    "scripting",
+    "storage",
+    "sidePanel"
+  ],
+  "host_permissions": [
+    "https://api.openai.com/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Explain this page"
+  },
+  "side_panel": {
+    "default_path": "sidepanel.html"
+  }
+}

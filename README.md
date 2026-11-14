@@ -12,7 +12,7 @@ A Chrome Manifest V3 extension that turns a webpage or selected passage into a s
 2. Turn on **Developer mode**.
 3. Choose **Load unpacked** and select this folder.
 4. Open the extension’s side panel from the toolbar, then choose **Settings** and add an OpenAI API key.
-5. Right-click a page and choose **Explain this page**, or select text and choose **Explain selected text**. You can also use **Load page** in the side panel.
+5. Right click a page and choose **Explain this page** or select text and choose **Explain selected text**. You can also use **Load page** in the side panel.
 
 The extension requires Chrome 116 or newer. It uses the OpenAI Responses API with `gpt-4.1-mini`; API usage is billed to the account associated with the API key.
 
